@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+.gradient-custom {
+ /* fallback for old browsers */
+  background: #7e40f6;
+
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(
+    to right,
+    rgba(126, 64, 246, 1),
+    rgba(80, 139, 252, 1)
+  );
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(
+    to right,
+    rgba(126, 64, 246, 1),
+    rgba(80, 139, 252, 1)
+  );
+}
+
+.navbar-custom {
+ background: #5e2dc6;
+  background: -webkit-linear-gradient(to right, rgba(94, 45, 198, 1), rgba(108, 92, 231, 1));
+  background: linear-gradient(to right, rgba(94, 45, 198, 1), rgba(108, 92, 231, 1));
+}
+
+.card-registration .select-input.form-control[readonly]:not([disabled]) {
+font-size: 1rem;
+line-height: 2.15;
+padding-left: .75em;
+padding-right: .75em;
+}
+.card-registration .select-arrow {
+top: 13px;
+}
